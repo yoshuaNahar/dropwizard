@@ -17,6 +17,7 @@
         <!-- See also: https://github.com/jetty-project/jetty-alpn/blob/99b59b42ce87c74606749eb8d6593d0ecd7ada72/docs/version_mapping.properties -->
         <alpn-boot.version>8.1.13.v20181017</alpn-boot.version>
         <argLine>"-Xbootclasspath/p:/${user.home}/.m2/repository/org/mortbay/jetty/alpn/alpn-boot/${alpn-boot.version}/alpn-boot-${alpn-boot.version}.jar" -Duser.language=en -Duser.region=US</argLine>
+        <module.name>io.dropwizard.http2</module.name>
     </properties>
 
     <dependencies>
